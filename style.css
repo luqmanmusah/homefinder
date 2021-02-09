@@ -1,133 +1,112 @@
 .navbar-brand {
-    color: white;
+  color: white;
 }
 
 .navbar-nav .nav-item a {
-    color: white;
+  color: white;
 }
 
 .navbar {
-    background-color: #d55749;
+  background-color: #d55749;
 }
 
 .navbar-right {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .nav-item {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .hero-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./images/villagio.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/villagio.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
 .hero-title {
-    color:white;
-    text-align: center;
-    font-weight: bold;
-    padding: 0;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 0;
 }
 
 .steps-header {
-    padding-top: 40px;
+  padding-top: 40px;
 }
-
-.perks {
-    background-color: tomato;
-   
-}
-
-.perks {
-    background-color: gray;
-}
-
-.perks {
-    background-color: lightblue;   
-}
-
-/* .image-perk {
-    float: 
-} */
 
 .steps i {
-    color: tomato;
-
+  color: tomato;
 }
+
 .links-section {
-    background-color: black;
+  background-color: black;
 }
 
 footer {
-    background-color: darkgrey;
+  background-color: darkgrey;
 }
 
 .card {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .links-icon {
-    position: relative;
-    color: #70c8d4;
-    border-radius: 50%;
+  position: relative;
+  color: #70c8d4;
+  border-radius: 50%;
 }
 
 .links-icon-border {
-    position: absolute;
-    top: 50%;
-    display: inline-block;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-color: #dee2e6;
-}
-
-.footer-socials {
-    justify-items: space;
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-color: #dee2e6;
 }
 
 footer {
-    background-color: darkgrey;
+  background-color: darkgrey;
 }
 
 .perks-section img {
-    width:250px;
-    height:250px;
-    text-align: center;
+  width: 250px;
+  height: 250px;
+  text-align: center;
 }
 
 @media screen and (max-width: 425px) {
-    .nav-text {
-        display: none;
-    }
-    .perks-text {
-        order: 2;
-        align-items: center;
-    }
-    .perks-img {
-        order: 1;
-    }
-    .links-icon {
-        position: relative;
-    }
+  .nav-text {
+    display: none;
+  }
 
+  .perks-text {
+    order: 2;
+    align-items: center;
+  }
+
+  .perks-img {
+    order: 1;
+  }
+
+  .links-icon {
+    position: relative;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .nav-text {
-        display: block;
-    }
+  .nav-text {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .nav-text {
-        display: block;
-    }
+  .nav-text {
+    display: block;
+  }
 }
-
