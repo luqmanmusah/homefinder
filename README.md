@@ -2,7 +2,7 @@
 
 # HTML/CSS capstone project
 
-This project is a capstone project developed as completion of the HTML & CSS section of Microverse main curriculum. It is a responsive website application that helps to find hotels. It is a solo project intended to showcase HTML & CSS Skills. It is a real-world-like project built with some business specifications. It consists of three pages: Home page, search results page, and item details page. The custom CSS of the project is generated using Sass which makes it reusable, readable, and scalable.
+This project is a capstone project developed as completion of the HTML & CSS section of Microverse main curriculum. It is a responsive website application that helps to find homes. It is a solo project intended to showcase HTML & CSS Skills. It is a real-world-like project built with some business specifications. It consists of three pages: Home page, search results page, and item details page. The custom CSS of the project is generated using Sass which makes it reusable, readable, and scalable.
 
 # Desktop
 ![home](https://user-images.githubusercontent.com/22328716/107388773-1448ad00-6aee-11eb-9b14-fdde607e4872.png)
