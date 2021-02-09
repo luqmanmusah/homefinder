@@ -96,16 +96,22 @@ footer {
     background-color: darkgrey;
 }
 
+.perks-section img {
+    width:250px;
+    height:250px;
+    text-align: center;
+}
+
 @media screen and (max-width: 425px) {
     .nav-text {
         display: none;
     }
     .perks-text {
         order: 2;
+        align-items: center;
     }
     .perks-img {
         order: 1;
-        height: 75%;
     }
     .links-icon {
         position: relative;
