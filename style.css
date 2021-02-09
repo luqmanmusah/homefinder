@@ -1,0 +1,114 @@
+.navbar-brand {
+    color: white;
+}
+
+.navbar-nav .nav-item a {
+    color: white;
+}
+
+.navbar {
+    background-color: #d55749;
+}
+
+.navbar-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./images/villagio.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    
+}
+
+.hero-title {
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+}
+
+.steps-header {
+    padding-top: 40px;
+}
+
+.perks-item1 {
+    background-color: tomato;
+   
+}
+
+.perks-item2 {
+    background-color: gray;
+}
+
+.perks-item3 {
+    background-color: lightblue;   
+}
+
+.perks-image {
+    width: 412px;
+    height: 238px;
+    float: right;
+    margin-left: 50%;
+}
+
+/* .image-perk {
+    float: 
+} */
+
+.steps i {
+    color: tomato;
+
+}
+.links-section {
+    background-color: black;
+}
+
+footer {
+    background-color: darkgrey;
+}
+
+.card {
+    background-color: transparent;
+}
+
+.perks-img {
+    width: 99%;
+    height: 99%;
+    
+}
+
+@media screen and (max-width: 425px) {
+    .nav-text {
+        display: none;
+    }
+    .perks-text {
+        order: 2;
+    }
+    .perks-img {
+        order: 1;
+        height: 75%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-text {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .nav-text {
+        display: block;
+    }
+}
+
