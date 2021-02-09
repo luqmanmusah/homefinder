@@ -47,10 +47,6 @@
   background-color: black;
 }
 
-footer {
-  background-color: darkgrey;
-}
-
 .card {
   background-color: transparent;
 }
@@ -68,16 +64,6 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
   border-color: #dee2e6;
-}
-
-footer {
-  background-color: darkgrey;
-}
-
-.perks-section img {
-  width: 250px;
-  height: 250px;
-  text-align: center;
 }
 
 @media screen and (max-width: 425px) {
