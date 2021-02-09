@@ -40,24 +40,17 @@
     padding-top: 40px;
 }
 
-.perks-item1 {
+.perks {
     background-color: tomato;
    
 }
 
-.perks-item2 {
+.perks {
     background-color: gray;
 }
 
-.perks-item3 {
+.perks {
     background-color: lightblue;   
-}
-
-.perks-image {
-    width: 412px;
-    height: 238px;
-    float: right;
-    margin-left: 50%;
 }
 
 /* .image-perk {
@@ -80,10 +73,27 @@ footer {
     background-color: transparent;
 }
 
-.perks-img {
-    width: 99%;
-    height: 99%;
-    
+.links-icon {
+    position: relative;
+    color: #70c8d4;
+    border-radius: 50%;
+}
+
+.links-icon-border {
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-color: #dee2e6;
+}
+
+.footer-socials {
+    justify-items: space;
+}
+
+footer {
+    background-color: darkgrey;
 }
 
 @media screen and (max-width: 425px) {
@@ -96,6 +106,9 @@ footer {
     .perks-img {
         order: 1;
         height: 75%;
+    }
+    .links-icon {
+        position: relative;
     }
 
 }
