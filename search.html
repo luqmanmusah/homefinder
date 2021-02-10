@@ -50,12 +50,50 @@
           
     </header>
     <main>
-        <section>
-            <h1></h1>
-            <div>
-                <form action=""></form>
-            </div>
+        <section class="search-container py-5 my-5">
+            <h1 class="search-heading text-center"> Filter by Neigbourhood, budget, Type of Home and Amenities</h1>
+            <form action="" class="row px-4">
+                <div class="form-group col-12 pt-4 pt-md-0 col-lg-2 col-md-6">
+                    <label for="" class="font-weight-bold">NEIGHBOURHOOD*</label>
+                    <input required type="text" class="form-control" id="neighbourhood" placeholder="Nima" >
+                </div>
+                <div class="form-group col-12 col-md-6 col-lg-2">
+                    <label for="" class="font-weight-bold">BUDGET</label>
+                    <select name="budget" id="budget" class="form-control">
+                        <option value="">$1000-$5000</option>
+                        <option value="">$6000-$10,000</option>
+                        <option value="">$11,000-$15,000</option>
+                        <option value="">$16,000-$20,000</option>
+                        <option value="">$21,000-$30,000</option>
+                        <option value="">$31,000-$50,000</option>
+                    </select>
+                </div>
+                <div class="form-group col-12 col-md-6 col-lg-2">
+                    <label for="" class="font-weight-bold">TYPE OF HOME</label>
+                    <select name="searchHome" id="searchHome" class="form-control">
+                        <option value="">Single Bedroom</option>
+                        <option value="">Studio Apartment</option>
+                        <option value="">Two-bedroom House</option>
+                        <option value="">Three-bedroom House</option>
+                        <option value="">Four-bedroom House</option>
+                    </select>
+                </div>
+                <div class="form-group col-12 col-md-6 col-lg-2">
+                    <label for="" class="font-weight-bold">AMENITIES</label>
+                    <select name="amenities" id="amenities" class="form-control">
+                        <option value="">Police Station</option>
+                        <option value="">Private School</option>
+                        <option value="">Tard Road</option>
+                        <option value="">Constant Electricity</option>
+                    </select>
+                </div>
+                <div class="search-buttons col-12 pt-lg-4 col-lg-4">
+                    <button type="submit" class="btn btn-primary form-buttons font-weight-bold mt-lg-1">Submit</button>
+                    <button type="submit" class="btn form-buttons mt-lg-1 clear-filter-buttons font-weight-bold text-white">Clear filter</button>
+                </div>
+            </form>
         </section>
+        <section></section>
         <section class="links-section">
             <div class="links-section-up row pt-5">
                 <div class="links-nav border-top border-bottom py-3 d-flex col-12 col-md-5 justify-content-around align-items-center">

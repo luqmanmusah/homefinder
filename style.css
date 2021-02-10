@@ -81,6 +81,18 @@ footer {
   text-align: center;
 }
 
+.clear-filter-buttons {
+  background-color: red;
+}
+
+.search-container {
+  background-color:lightgray;
+}
+
+.search-heading {
+  color: darkgrey
+}
+
 @media screen and (max-width: 425px) {
   .nav-text {
       display: none;
