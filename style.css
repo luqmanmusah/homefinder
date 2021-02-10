@@ -21,15 +21,16 @@
 }
 
 .hero-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/villagio.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./images/villagio.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
+  
 }
 
 .hero-title {
-  color: white;
+  color:white;
   text-align: center;
   font-weight: bold;
   padding: 0;
@@ -41,8 +42,8 @@
 
 .steps i {
   color: tomato;
-}
 
+}
 .links-section {
   background-color: black;
 }
@@ -66,33 +67,45 @@
   border-color: #dee2e6;
 }
 
+.footer-socials {
+  justify-items: space;
+}
+
+footer {
+  background-color: darkgrey;
+}
+
+.perks-section img {
+  width:250px;
+  height:250px;
+  text-align: center;
+}
+
 @media screen and (max-width: 425px) {
   .nav-text {
-    display: none;
+      display: none;
   }
-
   .perks-text {
-    order: 2;
-    align-items: center;
+      order: 2;
+      align-items: center;
   }
-
   .perks-img {
-    order: 1;
+      order: 1;
+  }
+  .links-icon {
+      position: relative;
   }
 
-  .links-icon {
-    position: relative;
-  }
 }
 
 @media screen and (max-width: 1024px) {
   .nav-text {
-    display: block;
+      display: block;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .nav-text {
-    display: block;
+      display: block;
   }
 }
