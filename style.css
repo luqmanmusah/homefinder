@@ -67,17 +67,25 @@
   border-color: #dee2e6;
 }
 
+<<<<<<< HEAD
 .footer-socials {
   justify-items: space;
 }
 
+=======
+>>>>>>> 4a9d6df745f40498b23b4189855a67f1604f9376
 footer {
   background-color: darkgrey;
 }
 
 .perks-section img {
+<<<<<<< HEAD
   width:250px;
   height:250px;
+=======
+  width: 250px;
+  height: 250px;
+>>>>>>> 4a9d6df745f40498b23b4189855a67f1604f9376
   text-align: center;
 }
 
