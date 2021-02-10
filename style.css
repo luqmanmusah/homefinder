@@ -66,6 +66,16 @@
   border-color: #dee2e6;
 }
 
+footer {
+  background-color: darkgrey;
+}
+
+.perks-section img {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+}
+
 @media screen and (max-width: 425px) {
   .nav-text {
     display: none;
