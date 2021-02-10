@@ -93,6 +93,17 @@ footer {
   color: darkgrey
 }
 
+.results-houses-card-image {
+  filter: brightness(60%);
+}
+
+.card-grid-item-span {
+  color: #70c8d4;
+}
+
+.apply-span {
+  color: #70c8d4;
+}
 @media screen and (max-width: 425px) {
   .nav-text {
       display: none;
