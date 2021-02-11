@@ -75,6 +75,10 @@
   justify-items: space;
 }
 
+.footer-socials a {
+  color: white;
+}
+
 footer {
   background-color: #6d7073;
 }
