@@ -1,0 +1,152 @@
+.navbar-brand {
+  color: white;
+}
+
+.links-nav a {
+  color: white;
+}
+
+.navbar-nav .nav-item a {
+  color: white;
+}
+
+.navbar {
+  background-color: #d55749;
+}
+
+.navbar-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-item {
+  list-style-type: none;
+}
+
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/villagio.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.hero-title {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 0;
+}
+
+.steps-header {
+  padding-top: 40px;
+}
+
+.steps i {
+  color: tomato;
+}
+
+.links-section {
+  background-color: black;
+}
+
+.card {
+  background-color: transparent;
+}
+
+.links-icon {
+  position: relative;
+  color: #70c8d4;
+  border-radius: 50%;
+}
+
+.links-icon-border {
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-color: #dee2e6;
+}
+
+footer {
+  background-color: #6d7073;
+}
+
+.perks-section img {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+}
+
+.perks-container {
+  background-color: #cd5c5c;
+}
+
+.perks-container2 {
+  background-color: #a5a4a4;
+}
+
+.perks-container3 {
+  background-color: #70c8d4;
+}
+
+.clear-filter-buttons {
+  background-color: red;
+}
+
+.search-container {
+  background-color: lightgray;
+}
+
+.search-heading {
+  color: darkgrey;
+}
+
+.results-houses-card-image {
+  filter: brightness(60%);
+}
+
+.card-grid-item-span {
+  color: #70c8d4;
+}
+
+.apply-span {
+  color: #70c8d4;
+}
+
+.more-details-link-title {
+  background-color: lightgray;
+}
+
+@media screen and (max-width: 425px) {
+  .nav-text {
+    display: none;
+  }
+
+  .perks-text {
+    order: 2;
+    align-items: center;
+  }
+
+  .perks-img {
+    order: 1;
+  }
+
+  .links-icon {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-text {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-text {
+    display: block;
+  }
+}

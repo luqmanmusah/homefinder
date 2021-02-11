@@ -26,8 +26,23 @@ This project is a capstone project developed as completion of the HTML & CSS sec
 # Live Demo
 [Live](https://luqmanmusah.github.io/homefinder/)
 
+## Getting Started
+
+
+### Setup
+
+
+To get a local copy up and running follow these simple example steps.
+
+- Go to git@github.com:luqmanmusah/homefinder.git
+- Click on code and copy the html code. 
+- Use git bash to clone this repository on your local machine. 
+- Run git checkout -b your-braanch-name Make your contributions 
+- Push your branch up to your forked repository 
+- Open a Pull Request with a detailed description to the development branch of the original project for a review
+
 # Author
-**Luqman Musah
+### Luqman Musah
 
 - Github: [Luqman Musah](https://github.com/luqmanmusah)
 - Email: musahluqman@gmail.com
@@ -38,7 +53,7 @@ This project is a capstone project developed as completion of the HTML & CSS sec
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the <a href="https://github.com/tta2yta/thenextweek/issues" target="_blank">issues page</a>.
+Feel free to check the <a href="https://github.com/luqmanmusah/homefinder/issues" target="_blank">issues page</a>.
 
 ## Show your support
 
@@ -46,6 +61,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- <a href="https://www.behance.net/mathewnjuguna" target="_blank">Mathew Njugna for the Design</a>
 - <a href="https://www.microverse.org/" target="_blank">microverse.org</a>
 - <a href="https://www.behance.net/gallery/24796463/ZATTIX" target="_blank">ZATTIX Mohammed Awad</a>
 - <a href="https://www.w3schools.com/" target="_blank">w3schools.com</a>

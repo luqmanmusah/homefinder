@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e2ffc0b607.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar d-flex justify-content-center">
+            <div class="container-fluid d-flex col-12 col-md-6 justify-content-center justify-content-lg-start flex-row">
+              <a class="navbar-brand" href="./index.html"><i class="fa fa-home" aria-hidden="true"></i>HomeFinder</a>
+            </div>
+              <div class="">
+                <ul class="navbar col-12 col-md-12 col-lg-12">
+                  <li class="nav-item">
+                    <a class="nav-link text-white">
+                        <i class="fa fa-search text-white" aria-hidden="true"></i><span class="d-none d-md-inline" href="./search.html"> Search </span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">
+                        <i class="fas fa-user text-white" aria-hidden="true"></i> <span class="d-none d-md-inline"> About</span>
+                       
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">
+                        <i class="fas fa-wifi text-white" aria-hidden="true"></i> <span class="d-none d-md-inline"> Blog</span>
+                        
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">
+                        <i class="fas fa-bars text-white" aria-hidden="true"></i> <span class="d-none d-md-inline"> More</span>
+            
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            
+          </nav>
+          
+    </header>
+    <main>
+        <section class="search-container py-5 my-5 ">
+            <h1 class="search-heading text-center"> Filter by Neigbourhood, budget, Type of Home and Amenities</h1>
+            <form class="row px-4 w-100 align-items-center">
+                <div class="form-group col-12 pt-4 pt-md-0 col-lg-2 col-md-6">
+                    <label class="font-weight-bold">NEIGHBOURHOOD*</label>
+                    <input required type="text" class="form-control" id="neighbourhood" placeholder="Nima" >
+                </div>
+                <div class="form-group col-12 col-md-6 col-lg-2">
+                    <label for="" class="font-weight-bold">BUDGET</label>
+                    <select name="budget" id="budget" class="form-control">
+                        <option value="">$1000-$5000</option>
+                        <option value="">$6000-$10,000</option>
+                        <option value="">$11,000-$15,000</option>
+                        <option value="">$16,000-$20,000</option>
+                        <option value="">$21,000-$30,000</option>
+                        <option value="">$31,000-$50,000</option>
+                    </select>
+                </div>
+                <div class="form-group col-12 col-md-6 col-lg-2">
+                    <label for="" class="font-weight-bold">TYPE OF HOME</label>
+                    <select name="searchHome" id="searchHome" class="form-control">
+                        <option value="">Single Bedroom</option>
+                        <option value="">Studio Apartment</option>
+                        <option value="">Two-bedroom House</option>
+                        <option value="">Three-bedroom House</option>
+                        <option value="">Four-bedroom House</option>
+                    </select>
+                </div>
+                <div class="form-group col-12 col-md-6 col-lg-2">
+                    <label for="" class="font-weight-bold">AMENITIES</label>
+                    <select name="amenities" id="amenities" class="form-control">
+                        <option value="">Police Station</option>
+                        <option value="">Private School</option>
+                        <option value="">Tard Road</option>
+                        <option value="">Constant Electricity</option>
+                    </select>
+                </div>
+                <div class="search-buttons col-12 pt-lg-4 col-lg-4">
+                    <button type="submit" href="./results-houses" class="btn btn-primary form-buttons font-weight-bold mt-lg-1">Submit</button>
+                    <button type="submit" class="btn form-buttons mt-lg-1 clear-filter-buttons font-weight-bold text-white">Clear filter</button>
+                </div>
+            </form>
+        </section>
+        <section class="results-houses">
+            <h3 class="search-results-title text-center font-weight-light mb-5">Search results Found 6 Houses</h3>
+            <div class="row results-houses-container mx-md-3">
+                <div class="card col-12 col-md-6 col-lg-4 results-houses text-white mx-3 mb-3 mx-md-0">
+                     <a href="./details.html" class="houses-links">
+                     <img src="./images/house.jpeg" alt="" class="card-img results-houses-card-image">
+                     <div class="card-img-overlay text-white">
+                         <h5 class="card-title results-houses-card-title">Fully furnished Studio Apartment</h5>
+                         <p class="card-text results-houses-card-description px-2">Fully serviced furnished apartment at Airport residential area. Air condition, smart tv and all modern gadget is in the apartment</p>
+                         <p class="card-text">Posted Last month</p>
+                     </div>
+                    </a>
+                </div>
+                <div class="card col-12 col-md-6 col-lg-4 results-houses text-white mx-3 mb-3 mx-md-0">
+                    <a href="./details.html" class="houses-links">
+                    <img src="./images/house.jpeg" alt="" class="card-img results-houses-card-image">
+                    <div class="card-img-overlay text-white">
+                        <h5 class="card-title results-houses-card-title">Fully furnished Studio Apartment</h5>
+                        <p class="card-text results-houses-card-description px-2">Fully serviced furnished apartment at Airport residential area. Air condition, smart tv and all modern gadget is in the apartment</p>
+                        <p class="card-text">Posted Last month</p>
+                    </div>
+                   </a>
+               </div>
+               <div class="card col-12 col-md-6 col-lg-4 results-houses text-white mx-3 mb-3 mx-md-0">
+                <a href="./details.html" class="houses-links">
+                <img src="./images/house.jpeg" alt="" class="card-img results-houses-card-image">
+                <div class="card-img-overlay text-white">
+                    <h5 class="card-title results-houses-card-title">Fully furnished Studio Apartment</h5>
+                    <p class="card-text results-houses-card-description px-2">Fully serviced furnished apartment at Airport residential area. Air condition, smart tv and all modern gadget is in the apartment</p>
+                    <p class="card-text">Posted Last month</p>
+                </div>
+               </a>
+           </div>
+           <div class="card col-12 col-md-6 col-lg-4 results-houses text-white mx-3 mb-3 mx-md-0">
+            <a href="./details.html" class="houses-links">
+            <img src="./images/house.jpeg" alt="" class="card-img results-houses-card-image">
+            <div class="card-img-overlay text-white">
+                <h5 class="card-title results-houses-card-title">Fully furnished Studio Apartment</h5>
+                <p class="card-text results-houses-card-description px-2">Fully serviced furnished apartment at Airport residential area. Air condition, smart tv and all modern gadget is in the apartment</p>
+                <p class="card-text">Posted Last month</p>
+            </div>
+           </a>
+       </div>
+       <div class="card col-12 col-md-6 col-lg-4 results-houses text-white mx-3 mb-3 mx-md-0">
+        <a href="./details.html" class="houses-links">
+        <img src="./images/house.jpeg" alt="" class="card-img results-houses-card-image">
+        <div class="card-img-overlay text-white">
+            <h5 class="card-title results-houses-card-title">Fully furnished Studio Apartment</h5>
+            <p class="card-text results-houses-card-description px-2">Fully serviced furnished apartment at Airport residential area. Air condition, smart tv and all modern gadget is in the apartment</p>
+            <p class="card-text">Posted Last month</p>
+        </div>
+       </a>
+   </div>
+   <div class="card col-12 col-md-6 col-lg-4 results-houses text-white mx-3 mb-3 mx-md-0">
+    <a href="./details.html" class="houses-links">
+    <img src="./images/house.jpeg" alt="" class="card-img results-houses-card-image">
+    <div class="card-img-overlay text-white">
+        <h5 class="card-title results-houses-card-title">Fully furnished Studio Apartment</h5>
+        <p class="card-text results-houses-card-description px-2">Fully serviced furnished apartment at Airport residential area. Air condition, smart tv and all modern gadget is in the apartment</p>
+        <p class="card-text">Posted Last month</p>
+    </div>
+   </a>
+    </div>
+            </div>
+            
+        </section>
+        <section class="links-section">
+            <div class="links-section-up row pt-5 w-100">
+                <div class="links-nav border-top border-bottom py-3 d-flex col-12 col-md-5 justify-content-around align-items-center">
+                    <a href="">Home</a>
+                    <a href="">Search</a>
+                    <a href="">About Us</a>
+                    <a href="">Advertise</a>
+                </div>
+                <div class="links-icon col-12 col-md-2 px-md-0 my-4 justify-content-center d-flex">
+                    <i class="fas fa-map-marker-alt fa-3x links-icon"></i>
+                    <span class="links-icon-border border rounded-circle p-5"></span>
+                </div>
+                <div class="links-nav border-top border-bottom d-flex align-items-center justify-content-around py-3 col-12 col-md-5">
+                    <a href="">Facebook</a>
+                    <a href="">Twitter</a>
+                    <a href="">Blog</a>
+                    <a href="">Google+</a>
+                </div>
+            </div>
+            <div class="links-section-down container text-white">
+                <div class="row py-5 w-100">
+                <div class="extra-links col-12 col-md-4 my-md-auto">
+                    <h5 class="extra-links-text text-center">SUBSCRIBE</h5>
+                    <form class="form-inline">
+                        <div class="form-group mb-2 w-75">
+                            <input class="form-control rounded-0 form-extra-links-input w-100" type="email" placeholder="luq@gmail.com">
+                        </div>
+                        <button class="btn btn-primary mb-2 w-25 rounded-0 form-extra-links-send-button" type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="extra-links col-12 col-md-4 mt-5 my-md-auto">
+                    <h5 class="extra-links-title text-center">CONTACT</h5>
+                    <p class="extra-links-text text-center">Have a question or submission?
+                        <a href="#" class="extra-links-small text-center"><small>info@homefinder.com</small></a>
+                    </p>
+                </div>
+                <div class="extra-links col-12 col-md-4 mt-5 my-md-auto">
+                    <h5 class="extra-links-text text-center">ABOUT</h5>
+                    <p class="extra-links-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec lorem ut purus ultricies luctus lobortis sit amet libero. Pellentesque sit amet sem sit amet odio lacinia luctus.
+                        <a href="" class="extra-links-small text-center"><span>Learn more...</span></a>
+                    </p>
+                    
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="d-flex flex-column flex-md-row justify-content-between py-3 text-white">
+        <div class="footer-socials d-flex flex-row justify-content-around">
+            <a href="">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+        <div>
+            <p>
+            <i class="far fa-copyright"></i>
+            Designed by
+            <a href="https://github.com/luqmanmusah">Luqman Musah</a>
+            to contact me, check out 
+            <a href="https://github.com/luqmanmusah">github.com/luqmanmusah</a>
+            </p>
+        </div>
+    </footer>
+
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
