@@ -48,6 +48,10 @@
   background-color: black;
 }
 
+.links-nav a {
+  color: white;
+}
+
 .card {
   background-color: transparent;
 }
@@ -72,13 +76,25 @@
 }
 
 footer {
-  background-color: darkgrey;
+  background-color: #6d7073;
 }
 
 .perks-section img {
   width: 250px;
   height: 250px;
   text-align: center;
+}
+
+.perks-container {
+  background-color: #cd5c5c;
+}
+
+.perks-container2 {
+  background-color: #a5a4a4;
+}
+
+.perks-container3 {
+  background-color: #70c8d4;
 }
 
 .clear-filter-buttons {
@@ -104,6 +120,13 @@ footer {
 .apply-span {
   color: #70c8d4;
 }
+
+.more-details-link-title {
+  background-color: lightgray;
+}
+
+
+
 @media screen and (max-width: 425px) {
   .nav-text {
       display: none;
