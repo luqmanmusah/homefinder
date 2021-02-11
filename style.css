@@ -2,6 +2,10 @@
   color: white;
 }
 
+.links-nav a {
+  color: white;
+}
+
 .navbar-nav .nav-item a {
   color: white;
 }
@@ -21,16 +25,15 @@
 }
 
 .hero-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./images/villagio.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/villagio.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
-  
 }
 
 .hero-title {
-  color:white;
+  color: white;
   text-align: center;
   font-weight: bold;
   padding: 0;
@@ -42,14 +45,10 @@
 
 .steps i {
   color: tomato;
-
 }
+
 .links-section {
   background-color: black;
-}
-
-.links-nav a {
-  color: white;
 }
 
 .card {
@@ -69,14 +68,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   border-color: #dee2e6;
-}
-
-.footer-socials {
-  justify-items: space;
-}
-
-.footer-socials a {
-  color: white;
 }
 
 footer {
@@ -106,11 +97,11 @@ footer {
 }
 
 .search-container {
-  background-color:lightgray;
+  background-color: lightgray;
 }
 
 .search-heading {
-  color: darkgrey
+  color: darkgrey;
 }
 
 .results-houses-card-image {
@@ -129,33 +120,33 @@ footer {
   background-color: lightgray;
 }
 
-
-
 @media screen and (max-width: 425px) {
   .nav-text {
-      display: none;
-  }
-  .perks-text {
-      order: 2;
-      align-items: center;
-  }
-  .perks-img {
-      order: 1;
-  }
-  .links-icon {
-      position: relative;
+    display: none;
   }
 
+  .perks-text {
+    order: 2;
+    align-items: center;
+  }
+
+  .perks-img {
+    order: 1;
+  }
+
+  .links-icon {
+    position: relative;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .nav-text {
-      display: block;
+    display: block;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .nav-text {
-      display: block;
+    display: block;
   }
 }
